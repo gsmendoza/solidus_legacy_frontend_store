@@ -58,3 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "solidus", "~> 3.1"
 gem 'solidus_auth_devise'
 gem 'solidus_paypal_commerce_platform'
+
+gem 'solidus_hello_world',
+  github: 'gsmendoza/solidus_hello_world',
+  branch: 'gsmendoza/eng-312-create-a-solidus-extension-for-testing'
